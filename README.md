@@ -16,6 +16,12 @@ The system provides:
 
 ## Hardware
 
+• Arduino UNO <br>
+• Sharp  GP2Y0A21YK0F (x2) <br>
+• LCD 16x2 <br>
+• DS3231 RTC <br>
+• WS2812B LED Strip <br>
+• BJ-1K buzzer
 
 
 
