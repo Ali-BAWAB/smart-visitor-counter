@@ -6,8 +6,7 @@ This project implements a bidirectional visitor counting system using two Sharp 
 
 The system provides:
 
-• Entry detection.
-
+• Entry detection <br>
 • Exit detection <br>
 • Real-time occupancy monitoring <br>
 • LCD occupancy display <br>
@@ -16,6 +15,8 @@ The system provides:
 • Capacity waring indication <br>
 
 ## Hardware
+
+
 
 
 
