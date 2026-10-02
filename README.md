@@ -8,7 +8,7 @@ The system provides:
 
 • Entry detection
 
-• Exit detection<br>
+• Exit detection[space]
 • Real-time occupancy monitoring 
 • LCD occupancy display
 • RTC time display
