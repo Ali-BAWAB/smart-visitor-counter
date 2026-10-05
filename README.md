@@ -23,7 +23,7 @@ The system provides:
 • WS2812B LED Strip <br>
 • BJ-1K buzzer
 
-
+## System Architecture
 
 
 
