@@ -1,29 +1,58 @@
 # Intelligent Visitor Counter and Occupancy Monitoring System
 
-## Overview
+## 1) Overview
 
 This project implements a bidirectional visitor counting system using two Sharp GP2Y0A21YK0F infrared distance sensors.
 
 The system provides:
 
-• Entry detection <br>
-• Exit detection <br>
-• Real-time occupancy monitoring <br>
-• LCD occupancy display <br>
-• RTC time display <br>
-• WS2812B occupancy visualization <br>
-• Capacity waring indication <br>
+- [x] Entry detection <br>
+- [x] Exit detection <br>
+- [x] Real-time occupancy monitoring <br>
+- [x] LCD occupancy display <br>
+- [x] RTC time display <br>
+- [x] WS2812B occupancy visualization <br>
+- [x] Capacity waring indication <br>
 
-## Hardware
+## 2) System Architecture
 
-• Arduino UNO <br>
-• Sharp  GP2Y0A21YK0F (x2) <br>
-• LCD 16x2 <br>
-• DS3231 RTC <br>
-• WS2812B LED Strip <br>
-• BJ-1K buzzer
+### 2.1 Main Components
 
-## System Architecture
+| Component                   | Function                    |
+| --------------------------- | --------------------------- |
+| Arduino UNO                 | Main controller             |
+| Sharp GP2Y0A21YK0F S1       | Entry detection             |
+| Sharp GP2Y0A21YK0F S2       | Exit detection              |
+| LCD 16x2                    | Visitor display             |
+| DS3231 RTC                  | Time display                |
+| WS2812B LED Strip           | Visual occupancy indication |
+| BJ-1K buzzer                | Capacity warning            |
+| 5V-12V single chanel relay  | ON/OFF buzzer               |
 
+### 2.2 System architecture block diagram
 
+![](https://github.com/Ali-BAWAB/smart-visitor-counter/blob/main/System_architecture.png?raw=true)
 
+## 3) Detection principles
+
+### 3.1 Entrance trigger
+
+| S1                 | S2                 | Count |
+| ---                | ---                | ---   |
+| :white_check_mark: | :x:                | 0     |
+| :white_check_mark: | :white_check_mark: | 0     |
+| :x:                | :white_check_mark: | 0     |
+| :x:                | :x:                | +1    |
+
+### 3.2 Exit trigger
+
+| S1                 | S2                 | Count |
+| ---                | ---                | ---   |
+| :x:                | :white_check_mark: | 0     |
+| :white_check_mark: | :white_check_mark: | 0     |
+| :white_check_mark: | :x:                | 0     |
+| :x:                | :x:                | -1    |
+
+### 3.3 Reversal detection
+
+A key strength of this counter is its ability to detect reversals. If a visitor changes direction while entering or exiting—whether before or after passing the sensors—the system recognizes the action and prevents an incorrect count.
