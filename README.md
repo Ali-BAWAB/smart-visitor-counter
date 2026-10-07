@@ -38,6 +38,32 @@ The system provides:
 
 ![](https://github.com/Ali-BAWAB/smart-visitor-counter/blob/main/System_architecture.png?raw=true)
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/figure_a.png" alt="Subfigure a" width="300"><br>
+      (a) First caption
+    </td>
+    <td align="center">
+      <img src="images/figure_b.png" alt="Subfigure b" width="300"><br>
+      (b) Second caption
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/figure_c.png" alt="Subfigure c" width="300"><br>
+      (c) Third caption
+    </td>
+    <td align="center">
+      <img src="images/figure_d.png" alt="Subfigure d" width="300"><br>
+      (d) Fourth caption
+    </td>
+  </tr>
+</table>
+
+**Figure 1.** Overall figure caption.
+
+
 ## 3) Detection principles
 
 ### 3.1 Entrance trigger
