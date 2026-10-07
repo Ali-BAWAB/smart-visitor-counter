@@ -41,22 +41,22 @@ The system provides:
 <table>
   <tr>
     <td align="center">
-      <img src="images/figure_a.png" alt="Subfigure a" width="300"><br>
-      (a) First caption
-    </td>
-    <td align="center">
-      <img src="images/figure_b.png" alt="Subfigure b" width="300"><br>
-      (b) Second caption
-    </td>
+      <img src="Connections.jpeg" alt="Subfigure a" width="300"><br>
   </tr>
+</table>
+
+**Figure 1.** Overall figure caption.
+
+
+<table>
   <tr>
     <td align="center">
-      <img src="images/figure_c.png" alt="Subfigure c" width="300"><br>
-      (c) Third caption
+      <img src="Images/Connections.jpeg" alt="Subfigure a" width="300"><br>
+      (a) Wiring
     </td>
     <td align="center">
-      <img src="images/figure_d.png" alt="Subfigure d" width="300"><br>
-      (d) Fourth caption
+      <img src="Images/sensors and lcd.jpeg" alt="Subfigure b" width="300"><br>
+      (b) Sensors and LCD
     </td>
   </tr>
 </table>
