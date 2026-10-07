@@ -36,9 +36,9 @@ The system provides:
 
 ### 2.2 System architecture block diagram
 
-<table>
-  <tr>
-    <td align="center">
+<table style="border: none;">
+  <tr style="border: none;">
+   <td align="center" style="border: none;">
       <img src="System_architecture.png" alt="Subfigure a" width="600"><br>
   </tr>
 </table>
@@ -48,18 +48,19 @@ The system provides:
 
 <table>
   <tr>
-    <td align="center">
-      <img src="Images/Connections.jpeg" alt="Subfigure a" width="300"><br>
+    <td align="center" style="border: 0 !important;">
+      <img src="Images/Connections.jpeg" alt="Wiring" width="300"><br>
       (a) Wiring
     </td>
-    <td align="center">
-      <img src="Images/sensors and lcd.jpeg" alt="Subfigure b" width="300"><br>
+    <td align="center" style="border: 0 !important;">
+      <img src="Images/sensors%20and%20lcd.jpeg" alt="Sensors with LCD" width="300"><br>
       (b) Sensors with LCD
     </td>
   </tr>
 </table>
 
-**Figure 2.** System (a) wiring , and (b) sensors with lcd implementation
+**Figure 2.** System: (a) wiring and (b) sensor and LCD implementation.
+
 
 
 ## 3) Detection principles
@@ -88,11 +89,11 @@ The system provides:
 
 ## 3) Occupancy Visualization
 
-<table>
-  <tr>
+<table style="border: none;">
+  <tr style="border: none;">
     <td align="center">
       <img src="Images/White display.jpeg" alt="Subfigure a" width="300"><br>
-      (a) Occupancy = 0
+      (a) Occupancy = 0 && night
     </td>
     <td align="center">
       <img src="Images/Green display.jpeg" alt="Subfigure b" width="300"><br>
