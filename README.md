@@ -36,16 +36,14 @@ The system provides:
 
 ### 2.2 System architecture block diagram
 
-![](https://github.com/Ali-BAWAB/smart-visitor-counter/blob/main/System_architecture.png?raw=true)
-
 <table>
   <tr>
     <td align="center">
-      <img src="Connections.jpeg" alt="Subfigure a" width="300"><br>
+      <img src="System_architecture.png" alt="Subfigure a" width="600"><br>
   </tr>
 </table>
 
-**Figure 1.** Overall figure caption.
+**Figure 1.** System Architecture.
 
 
 <table>
@@ -56,12 +54,12 @@ The system provides:
     </td>
     <td align="center">
       <img src="Images/sensors and lcd.jpeg" alt="Subfigure b" width="300"><br>
-      (b) Sensors and LCD
+      (b) Sensors with LCD
     </td>
   </tr>
 </table>
 
-**Figure 1.** Overall figure caption.
+**Figure 2.** System (a) wiring , and (b) sensors with lcd implementation
 
 
 ## 3) Detection principles
@@ -86,4 +84,31 @@ The system provides:
 
 ### 3.3 Reversal detection
 
-A key strength of this counter is its ability to detect reversals. If a visitor changes direction while entering or exiting—whether before or after passing the sensors—the system recognizes the action and prevents an incorrect count.
+<p align="justify">A key strength of this counter is its ability to detect reversals. If a visitor changes direction while entering or exiting—whether before or after passing the sensors—the system recognizes the action and prevents an incorrect count.</p>
+
+## 3) Occupancy Visualization
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="Images/White display.jpeg" alt="Subfigure a" width="300"><br>
+      (a) Occupancy = 0
+    </td>
+    <td align="center">
+      <img src="Images/Green display.jpeg" alt="Subfigure b" width="300"><br>
+      (b) x < Occupancy < y
+    </td>
+  </tr>
+    <tr>
+    <td align="center">
+      <img src="Images/Yellow display.jpeg" alt="Subfigure a" width="300"><br>
+      (a) Occupancy > y
+    </td>
+    <td align="center">
+      <img src="Images/Red display.jpeg" alt="Subfigure b" width="300"><br>
+      (b) Occupancy > z
+    </td>
+  </tr>
+</table>
+
+**Figure 3.** Occupancy (a) Red , (b) Green, (c) Yellow, and (d) Red visualization {x, y, and z defined by the user}
