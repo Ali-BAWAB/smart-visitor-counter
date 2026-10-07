@@ -2,7 +2,12 @@
 
 ## 1) Overview
 
-<p align="justify">This project presents the design and development of an intelligent bidirectional visitor counting and occupancy monitoring system capable of accurately detecting people entering and leaving a controlled area in real time. The system combines embedded electronics, sensor integration, real-time processing, and visual feedback to provide a complete occupancy monitoring solution. The system continuously tracks visitor movements, calculates the current occupancy, and presents the information through an LCD interface and intelligent lighting indicators. The project was developed to demonstrate practical skills in **embedded systems**, **electronics integration**, **signal processing**, **testing**, and **validation**.</p>
+<p align="justify">This project presents the design and development of an intelligent bidirectional visitor counting and occupancy monitoring system capable of accurately detecting people entering and leaving a controlled area in real time. The system combines embedded electronics, sensor integration, real-time processing, and visual feedback to provide a complete occupancy monitoring solution. The system continuously tracks visitor movements, calculates the current occupancy, and presents the information through an LCD interface and intelligent lighting indicators. The project was developed to demonstrate practical skills in
+<strong>embedded systems</strong>,
+<strong>electronics integration</strong>,
+<strong>signal processing</strong>,
+<strong>testing</strong>, and
+<strong>validation</strong>.</p>
 
 The system provides:
 
